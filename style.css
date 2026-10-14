@@ -141,6 +141,7 @@ button{
     transform: scale(1.2);
 }
 
+
 .btn-transparent{
     background-color: transparent;
     color: #fff;
@@ -182,7 +183,7 @@ img{
 
 .card:hover{
     transform: translateY(-10px);
-    transition: 0.7s;
+    transition: 1s;
 }
 
 .card img{
@@ -190,5 +191,31 @@ img{
     height: 250px;
     object-fit: cover;
 }
+
+.card h3{
+    padding: 20px 20px 10px;
+    font-size: 22px;
+}
+
+.card p{
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.card a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.card a:hover{
+    background-color: rgb(128, 128, 128);   
+    transition: 1s;
+}
+
 
 
